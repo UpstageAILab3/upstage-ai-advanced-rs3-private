@@ -9,16 +9,19 @@
 - category_code의 비율이 너무 차이가 나기 때문에 이걸 지우고 brand를 살림.
 
 ### Feature engineering
-- 가장 큰 변화점:
-    - 시간을 없애고 바로 전달에 상호작용한 아이템에 가중치를 부여하고, event_type도 수치로 환산하기 위해 각 값에 가중치를 부여하여, 이 값을 타겟으로 삼아 공략.
+- 핵심적인 생각
+    - 한 유저가 한 아이템을 어떻게 생각하는지 수치해보자. 
+    - event_type을 아이템별로 묶을 수 있도록 각각 값에 가중치를 부여한 후 합하여, 이 값을 타겟으로 삼아 공략.
 - event_weight :
     - view, cart, purchase를 전체의 갯수 대비 비율의 역수로 하여 각각의 weight를 다르게 부여함.
-- date_weight : 
-    - event_time으로 정렬 후, 시간을 의미하는 event_time, user_session을 모두 지우고, 그대신 2월에 상호작용이 일어난 것에 대해 weight를 주는 열인 date_weight를 설정함.
+    - 한 유저가 view만 많이 했다면, 가중치를 적게 받고 한번이라고 구매를 했다면 높은 가중치를 받게된다.
+- date_weight :
+    - event_type을 수치화하면서 시간과 아이템과의 관계를 정립할 필요가 생김. 
+    - event_time으로 정렬 후, 2월에 상호작용이 일어난 것에 대해 weight를 주는 열인 date_weight를 설정함.
     - date_weight를 설정할 때, view, cart는 5점을, purchase는 50달러 이상이면 2점, 50달러 미만이면 5점을 부여. - 재구매에 대한 가능성.
 - monetary : 각각의 user_id가 구매한  총 금액.
 - frequency : 각각의 user_id가 상호작용한 횟수 (type에 상관없이 셈.)
-- cluseter : monetary, frequency를 이용하여 k-mean clustering 하여 0,1,2 3그룹으로 나누고, 이상치들은 묶어서 3번 으로 함.
+- cluseter : monetary, frequency를 이용하여 k-mean clustering 하여 0,1,2 이렇게 3그룹으로 나누고, 이상치들은 묶어서 3번 으로 함.
 - brand
 
 
