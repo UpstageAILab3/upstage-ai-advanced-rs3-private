@@ -19,10 +19,14 @@
     - event_type을 수치화하면서 시간과 아이템과의 관계를 정립할 필요가 생김. 
     - event_time으로 정렬 후, 2월에 상호작용이 일어난 것에 대해 weight를 주는 열인 date_weight를 설정함.
     - date_weight를 설정할 때, view, cart는 5점을, purchase는 50달러 이상이면 2점, 50달러 미만이면 5점을 부여. - 재구매에 대한 가능성.
+- 위가 item에 관한 정보라면 아래는 user에 관한 정보.
 - monetary : 각각의 user_id가 구매한  총 금액.
 - frequency : 각각의 user_id가 상호작용한 횟수 (type에 상관없이 셈.)
 - cluseter : monetary, frequency를 이용하여 k-mean clustering 하여 0,1,2 이렇게 3그룹으로 나누고, 이상치들은 묶어서 3번 으로 함.
 - brand
+
+![](https://raw.githubusercontent.com/UpstageAILab3/upstage-ai-advanced-rs3-private/refs/heads/main/narykim/clustering.png?token=GHSAT0AAAAAACX7W7IRGOHJRURKEO7B5L5WZY2K57Q)
+![](https://raw.githubusercontent.com/UpstageAILab3/upstage-ai-advanced-rs3-private/refs/heads/main/narykim/feature_importance.png?token=GHSAT0AAAAAACX7W7IQF7OLZZ3YFWFKJ3QYZY2K6RQ)
 
 
 ### 사용 모델
