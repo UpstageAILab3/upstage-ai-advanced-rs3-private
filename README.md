@@ -6,7 +6,7 @@
 | ![박범철](https://avatars.githubusercontent.com/u/117797850?v=4) |![김나리](https://avatars.githubusercontent.com/u/137861675?v=4) |   ![조용중](https://avatars.githubusercontent.com/u/5877567?v=4) | ![최윤설](https://avatars.githubusercontent.com/u/72685362?v=4) ||
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |                       [박범철](https://github.com/Bomtori)             | [김나리](https://github.com/narykkim)             |                      [조용중](https://github.com/paanmego)             |            [최윤설](https://github.com/developzest)             |
-|                            팀장, 발표, EDA, Pre-processing, Modeling(T5-large model)                             |                            EDA, Pre-processing, Modeling(Kobart, T5-large model)                             |                 EDA, Pre-processing, Modeling(T5-large model)                   |                            EDA, Pre-processing, Modeling(Kobart, Llama3 model)                             | 
+|                            팀장, 발표, EDA, Pre-processing, Modeling(Boost)                             |                            EDA, Pre-processing, Modeling(Boost, Transformer)                          |                 EDA, Pre-processing, Modeling(All of Models)                   |                            EDA, Pre-processing, Modeling(CF, LMF)                             | 
 ## 0. Overview
 ### Environment
 - _Write Development environment_
