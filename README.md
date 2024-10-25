@@ -1,12 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Tm6AYAOm)
-# Title (Please modify the title)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zHsKfIy0)
+# Dialogue Summarization | 일상 대화 요약
 ## Team
 
-| ![박패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![최패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![오패캠](https://avatars.githubusercontent.com/u/156163982?v=4) |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [박패캠](https://github.com/UpstageAILab)             |            [이패캠](https://github.com/UpstageAILab)             |            [최패캠](https://github.com/UpstageAILab)             |            [김패캠](https://github.com/UpstageAILab)             |            [오패캠](https://github.com/UpstageAILab)             |
-|                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
 
+| ![박범철](https://avatars.githubusercontent.com/u/117797850?v=4) |![김나리](https://avatars.githubusercontent.com/u/137861675?v=4) |   ![조용중](https://avatars.githubusercontent.com/u/5877567?v=4) | ![최윤설](https://avatars.githubusercontent.com/u/72685362?v=4) ||
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+|                       [박범철](https://github.com/Bomtori)             | [김나리](https://github.com/narykkim)             |                      [조용중](https://github.com/paanmego)             |            [최윤설](https://github.com/developzest)             |
+|                            팀장, 발표, EDA, Pre-processing, Modeling(T5-large model)                             |                            EDA, Pre-processing, Modeling(Kobart, T5-large model)                             |                 EDA, Pre-processing, Modeling(T5-large model)                   |                            EDA, Pre-processing, Modeling(Kobart, Llama3 model)                             | 
 ## 0. Overview
 ### Environment
 - _Write Development environment_
