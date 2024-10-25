@@ -53,14 +53,14 @@
 
 - 중복 데이터 18개 존재하여 제거.
 
-## 4. Modeling
+## 3. Modeling
 
 - 협업필터링 기반 모델
 - Boost 모델
 - 시퀀스 기반 모델
 - 하이브리드 모델
 
-## 5. Result
+## 4. Result
 
 ### Leader Board
 
